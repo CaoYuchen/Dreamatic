@@ -1,0 +1,139 @@
+body {
+    padding:0;
+    margin:0;
+    overflow:hidden;
+	height: 600px;
+}
+canvas {
+    padding:0;
+    margin:0;
+}
+
+.main div{
+	position:fixed;
+	color:white;
+}
+.title {
+    left: 50%;
+    transform: translateX(-50%);
+    top:10px;
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+
+.page-footer{
+	bottom:0;
+	left: 50%;
+    transform: translateX(-50%);
+    /*color:white !important;*/
+}
+
+.modual{
+	width:200px;
+	height:200px;
+	cursor: pointer;
+	left: 50%;	
+	font-size: 30px;
+	font-weight: bold;
+    box-shadow: inset -2px 0px 20px 20px rgba(255,243,232,0.52);
+    border-radius: 120px;
+    color: #dedada !important;
+    transition: 0.3s;
+}
+.modual:hover{
+    box-shadow: inset -2px 0px 20px 20px rgba(241, 191, 191, 0.55);
+	color: #efa8a8 !important;
+}
+.modual > span{
+	line-height: 200px; 
+	vertical-align: middle;
+}
+
+#preview{
+	top:20%;
+	transform: translateX(-50%);
+}
+#category{
+    top: 35%;
+    transform: translateX(-200%);
+}
+#buy{
+	top: 35%;
+    transform: translateX(100%);
+}
+#developers{
+    top: 58%;
+    transform: translateX(-200%);
+}
+#community{
+    top: 58%;
+    transform: translateX(100%);
+}
+
+#care{
+    top: 75%;
+    transform: translateX(-50%);
+}
+
+#three-container{
+    left: 50% !important;
+    transform: translate(-50%,-42%);
+    top:10px !important;
+}
+
+.Page{
+    left:50%;
+    box-shadow: -2px 0px 13px 4px rgba(255,243,232,0.52);
+    display: none;
+    z-index: 9999;
+    border-radius: 120px;
+    margin-top: 50px;
+    border-radius: 100px;
+    /*transition: 0.3s;*/
+    opacity: 1;
+    -webkit-animation: fadeinout 1s linear forwards;
+    animation: fadeinout 1s linear forwards;
+}
+
+
+#buyPage{
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:900px;
+    height: 500px;
+}
+
+#developerPage{
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:900px;
+    height: 750px;
+}
+
+#carePage{
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:900px;
+    height: 850px;
+}
+
+#communityPage{
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:900px;
+    height: 900px;
+}
+
+
+@-webkit-keyframes fadeinout {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+

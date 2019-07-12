@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css?family=Homenaje");
+.p-canvas-webgl {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.p-summary {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+  color: #111;
+  font-family: 'Homenaje', sans-serif;
+}
+.p-summary h1 {
+  margin: 0 0 0.2em;
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+.p-summary p {
+  margin: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+}
+.p-summary a {
+  color: #111;
+}
+
+
+.p-utility-menu {
+    position: fixed;
+    z-index: 100;
+    top: 25px;
+    right: 20px
+}
+
+
+.c-button {
+    height: 2em;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 1.25em;
+    padding-left: 1.25em;
+    border-radius: 1em;
+    border-width: 2px;
+    border-style: solid
+}
+
+.c-button--white {
+    border-color: #fff
+}
+
+.c-button--black {
+    border-color: #222
+}
+
+.c-button__icon {
+    display: block;
+    margin-right: .7em
+}
+
+.c-button__icon--back {
+    width: .3em;
+    height: .3em;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.c-button__icon--white {
+    border-color: #fff
+}
+
+.c-button__icon--black {
+    border-color: #222
+}
+
+.c-button__label {
+    font-weight: 700
+}
+
+.c-button__label .js-split-str {
+    display: inline-block
+}
+
+.c-button__icon {
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s
+}
+
+.c-button:hover .c-button__icon {
+    -webkit-transform: translateX(-5px) rotate(-45deg);
+    transform: translateX(-5px) rotate(-45deg)
+}
+
+.c-button:hover .c-button__label .js-split-str {
+    -webkit-animation-name: animateSsplashStr;
+    animation-name: animateSsplashStr;
+    -webkit-animation-duration: .6s;
+    animation-duration: .6s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(2) {
+    -webkit-animation-delay: 20ms;
+    animation-delay: 20ms
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(3) {
+    -webkit-animation-delay: 40ms;
+    animation-delay: 40ms
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(4) {
+    -webkit-animation-delay: 60ms;
+    animation-delay: 60ms
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(5) {
+    -webkit-animation-delay: 80ms;
+    animation-delay: 80ms
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(6) {
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(7) {
+    -webkit-animation-delay: .12s;
+    animation-delay: .12s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(8) {
+    -webkit-animation-delay: .14s;
+    animation-delay: .14s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(9) {
+    -webkit-animation-delay: .16s;
+    animation-delay: .16s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(10) {
+    -webkit-animation-delay: .18s;
+    animation-delay: .18s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(11) {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(12) {
+    -webkit-animation-delay: .22s;
+    animation-delay: .22s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(13) {
+    -webkit-animation-delay: .24s;
+    animation-delay: .24s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(14) {
+    -webkit-animation-delay: .26s;
+    animation-delay: .26s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(15) {
+    -webkit-animation-delay: .28s;
+    animation-delay: .28s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(16) {
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(17) {
+    -webkit-animation-delay: .32s;
+    animation-delay: .32s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(18) {
+    -webkit-animation-delay: .34s;
+    animation-delay: .34s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(19) {
+    -webkit-animation-delay: .36s;
+    animation-delay: .36s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(20) {
+    -webkit-animation-delay: .38s;
+    animation-delay: .38s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(21) {
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(22) {
+    -webkit-animation-delay: .42s;
+    animation-delay: .42s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(23) {
+    -webkit-animation-delay: .44s;
+    animation-delay: .44s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(24) {
+    -webkit-animation-delay: .46s;
+    animation-delay: .46s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(25) {
+    -webkit-animation-delay: .48s;
+    animation-delay: .48s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(26) {
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(27) {
+    -webkit-animation-delay: .52s;
+    animation-delay: .52s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(28) {
+    -webkit-animation-delay: .54s;
+    animation-delay: .54s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(29) {
+    -webkit-animation-delay: .56s;
+    animation-delay: .56s
+}
+
+.c-button:hover .c-button__label .js-split-str:nth-of-type(30) {
+    -webkit-animation-delay: .58s;
+    animation-delay: .58s
+}
+
+.c-text-link {
+    display: inline-block;
+    position: relative
+}
+
+.c-text-link__label {
+    display: inline-block;
+    position: relative;
+    z-index: 2
+}
+
+.c-text-link__bg {
+    height: 2px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0
+}
+
+.c-text-link__bg--white {
+    background-color: #fff
+}
+
+.c-text-link__bg--black {
+    background-color: #222
+}
+
+.js-split-str{
+  color: white;
+}
+
+#three-container{
+    left: -7% !important;
+    transform: translateY(-42%);
+    top: 85% !important;
+    position: fixed;
+    z-index: 9999;
+}
+
+
+
+.myModual{
+  width:300px;
+  /*height:250px;*/
+  position: fixed;
+  z-index: 999;
+  cursor: pointer;
+  box-shadow: 0px 7px 20px 5px rgba(66, 60, 55, 0.52);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.title{
+  position: relative;
+  margin-top:-50px;
+  font-weight: bold;
+  color: #5691c5cc;
+}
+
+.content{
+  border-radius: 10px;
+}
+
+#scifi{
+  top:10%;
+  left:10%;
+}
+
+#adventure{
+  top:10%;
+  left:40%;
+}
+
+#travel{
+  top:10%;
+  left:70%;
+}
+
+#love{
+  top:40%;
+  left:10%;
+}
+
+#friendship{
+  top:40%;
+  left:40%;
+}
+
+#horror{
+  top:40%;
+  left:70%;
+}
+
+#dark{
+  top:70%;
+  left:10%;
+}
+
+#fantasy{
+  top:70%;
+  left:40%;
+}
+
+#heroic{
+  top:70%;
+  left:70%;
+}
