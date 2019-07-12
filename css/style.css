@@ -30,8 +30,8 @@ canvas {
 }
 
 .modual{
-	width:200px;
-	height:200px;
+	width:180px;
+	height:180px;
 	cursor: pointer;
 	left: 50%;	
 	font-size: 30px;
@@ -46,7 +46,7 @@ canvas {
 	color: #efa8a8 !important;
 }
 .modual > span{
-	line-height: 200px; 
+	line-height: 180px; 
 	vertical-align: middle;
 }
 
