@@ -1,37 +1,38 @@
 $(function() {
-	$("#preview").click(function() {
+	$("#preview").on("click touchstart",function(e) {
+		// e.preventDefault();
 		window.location.href = "./Gallery/Random.html";
 	})
-	$("#category").click(function() {
+	$("#category").on("click touchstart",function() {
 		window.location.href = "./category.html";
 	})
-	// $("#community").click(function() {
+	// $("#community").on("click touchstart",function() {
 	// 	window.location.href = "./community.html";
 	// })
 
-	$("#buy").click(function() {
+	$("#buy").on("click touchstart",function() {
 		$("#buyPage").show();
 		$(".modual").hide();
 	})
 
-	$("#buyButton").click(function() {
+	$("#buyButton").on("click touchstart",function() {
 		$("#buyPage").hide();
 		$(".modual").show();
 	})
 
-	$("#developers").click(function() {
+	$("#developers").on("click touchstart",function() {
 		$("#developerPage").show();
 		$(".modual").hide();
 	})
-	$("#community").click(function() {
+	$("#community").on("click touchstart",function() {
 		$("#communityPage").show();
 		$(".modual").hide();
 	})
-	$("#care").click(function() {
+	$("#care").on("click touchstart",function() {
 		$("#carePage").show();
 		$(".modual").hide();
 	})
-	$(".OKButton").click(function() {
+	$(".OKButton").on("click touchstart",function() {
 		$("#developerPage").hide();
 		$("#carePage").hide();
 		$("#communityPage").hide();

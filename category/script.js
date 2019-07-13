@@ -1,3 +1,13 @@
+$(function(){
+
+    $("#goBack").on("touchstart click",function(e) {
+      // console.log("1");
+      // e.preventDefault();
+      window.location.href = "./index.html";
+    })
+})
+
+
 class ConsoleSignature {
   constructor() {
     this.message = `created by yoichi kobayashi`;

@@ -3,6 +3,7 @@ body {
     margin:0;
     overflow:hidden;
 	height: 600px;
+    /*touch-action: none;*/
 }
 canvas {
     padding:0;
@@ -40,6 +41,7 @@ canvas {
     border-radius: 120px;
     color: #dedada !important;
     transition: 0.3s;
+    touch-action:none;
 }
 .modual:hover{
     box-shadow: inset -2px 0px 20px 20px rgba(241, 191, 191, 0.55);
@@ -51,23 +53,23 @@ canvas {
 }
 
 #preview{
-	top:20%;
+	top:17%;
 	transform: translateX(-50%);
 }
 #category{
-    top: 35%;
+    top: 32%;
     transform: translateX(-200%);
 }
 #buy{
-	top: 35%;
+	top: 32%;
     transform: translateX(100%);
 }
 #developers{
-    top: 58%;
+    top: 59%;
     transform: translateX(-200%);
 }
 #community{
-    top: 58%;
+    top: 59%;
     transform: translateX(100%);
 }
 
@@ -114,15 +116,15 @@ canvas {
 #carePage{
     top:50%;
     transform: translate(-50%,-50%);
-    width:900px;
-    height: 850px;
+    width:1100px;
+    height: 750px;
 }
 
 #communityPage{
     top:50%;
     transform: translate(-50%,-50%);
-    width:900px;
-    height: 900px;
+    width:800px;
+    height: 750px;
 }
 
 
